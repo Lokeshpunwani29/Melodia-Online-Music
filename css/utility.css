@@ -1,0 +1,43 @@
+.border{
+  border: 2px solid red;
+  margin: 2px;
+}
+.flexn{
+  display: flex;
+}
+.flexf{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.justify-center{
+  justify-content: center;
+}
+.align-center{
+  align-items: center;
+}
+.rounded{
+  border-radius: 8px;
+}
+.p-1{
+  padding: 14px;
+}
+.m-1{
+  margin: 6px;
+}
+.p-2{
+  padding: 24px;
+}
+/* Customize the scrollbar */
+::-webkit-scrollbar {
+  width: 1px; /* Width of the scrollbar */
+}
+::-webkit-scrollbar-track {
+  background: #000000; /* Track color */
+}
+::-webkit-scrollbar-thumb {
+  background: #ffffff; /* Thumb color */
+}
+input[type="range"]::-webkit-slider-runnable-track {
+  color-scheme: black;
+}

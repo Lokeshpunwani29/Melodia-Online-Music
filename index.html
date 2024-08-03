@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Songify - Online Music</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/utility.css">
+  <link rel="icon"  type="image/png" href="favicon-32x32.png">
+
+</head>
+<body>
+  <div class="container flexn">
+  <div class="left">
+    <div class="home rounded bg_black m-1">
+      <img class="cross" src="img/cross.svg" alt="">
+      <div class="logo">
+        <a href="index.html"> <img class="logo" src="img/logo1.png" alt="logo"> </a>
+      </div>
+      <ul class="redirect">
+        <li><img class="invert " src="img/home.svg" alt="home">Home</li>
+        <li><img class="invert " src="img/search.svg" alt="search">Search</li>
+      </ul>
+    </div>
+    <div class="library rounded bg_black flex p-1 m-1">
+      <p><img class="invert" src="img/playlist.svg" alt="playlist">Your Library</p>
+      
+      <div class="songList">
+        <ul> 
+
+        </ul>
+      </div>
+      <div class="footer">
+        <a href="info.html">Legal</a>
+        <a href="info.html">Safety & Privacy Center</a>
+        <a href="info.html">Privacy Policy</a>
+        <a href="info.html">Cookies</a>
+        <a href="info.html">About Ads</a>
+        <a href="info.html">Accessibility</a>    
+      </div>
+    </div>
+  </div>
+  <div class="right">
+    <div class="header bg_black rounded p-1 m-1">
+      <div class="nav">  
+        <img class="menu" src="img/menu.svg" alt="">
+        <img id="mail" src="img/mail.svg" alt="">
+      </div>
+      <div class="btns">
+        <button class="Signup">Sign up</button>
+        <button class="Login">Log in</button>
+      </div>
+    </div>
+    <div class="spotifyPlaylists bg_black rounded p-2 m-1">
+      <h2>Songify Playlists</h2>
+      <div class="cardCont ">
+       
+
+      </div>
+    </div>
+    <div class="playbar">
+      <div class="seekbar">
+        <div class="circle"></div>
+      </div>
+      <div class="playbarInfo">
+      
+      <div class="songInfo">Songify Viral Hits</div>
+      <div class="songBtn">
+        <img id="prevbtn" src="img/prevsong.svg" alt="Previous Song">
+        <img id="playbtn" id src="img/play2.svg" alt="Play/Pause">
+        <img id="nextbtn" src="img/nextsong.svg" alt="Previous Song">
+      </div>
+      <div class="timevol">
+      <div class="songTime">00:00</div>
+      <div class="volumeicon">
+        <div><img id="sound" src="img/volume.svg" alt="volume"></div>
+        <div class="range">
+          <input title="volume" type="range" name="volume" value="100">
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </div>
+  
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
