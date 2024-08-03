@@ -29,7 +29,7 @@ for (const song of songs) {
 </div>
   <div>
   <div class="songTitle">${(song.replaceAll("%20"," "))}</div>
-    <div class="artistName">Songify Viral Hits</div>
+    <div class="artistName">Melodia Viral Hits</div>
     </div>
   </div>
     <div class="playNow">
