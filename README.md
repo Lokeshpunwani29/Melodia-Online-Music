@@ -4,7 +4,7 @@
 Explore Melodia🎧 here ⬇️<br>
 <a href="http://lokeshpunwani29.site/" style="font-style:italic">Melodia - Online Music🎼</a>
 </h3>
-<p>Author->Lokesh Punwani✌️</p>
+<p>Desktop Interface✌️</p>
 
 ![Screenshot 2025-05-10 232657](https://github.com/user-attachments/assets/a1a5efb9-85a9-4bed-bd60-5782ed8cdd17)
 
